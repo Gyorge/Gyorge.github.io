@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>7Wonders</title>
+    <title>7Wonders Base Game</title>
+    <script src="../../jquery-3.6.1.js"></script>
+    <script src="../../main.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../img/games.css">
 </head>
 <body>
-
+<nav>
+    <div class="dimmer"></div>
+    <div class="nav">
+        <div id="showbtn">&#9776;</div>
+        <div><img src="../../img/pngwing.com.png" alt="7Wonders Base Game" width="200px"></div>
+        <div class="panels">
+            <div class="wholeContent">Complete Rulebook</div>
+            <div class="reference">Rules reference</div>
+        </div>
+    </div>
+    <div class="sidenav">
+        <a href="javascript:void(0)" id="closebtn" >&times;</a>
+        <a href="javascript:void(0)" class="dropbtn"><img src="../../img/pngwing.com.png" alt="kep" width="200px">&#8631</a>
+        <div class="dropdown-content">
+            <a href="7wondersMain.html">Main</a>
+            <a href="javascript:void(0)" class="dropbtn2">Duel &#8631</a>
+            <div class="dropdown-content2">
+                <a href="duel/duelMain.html"><img src="../../img/logo-7-wonders-duel.png" alt="duel" width="140px"></a>
+                <a href="duel/duelPantheon.html"><img src="../../img/7-wonders-pantheon-logo.png" alt="pantheon" width="140px"></a>
+                <a href="duel/duelAgora.html"><img src="../../img/logo-agora.png" alt="agora" width="140px"></a>
+            </div>
+            <a href="7wondersArmada.html"><img src="../../img/logo-armada.png" alt="armada" width="150px"></a>
+            <a href="7wondersCities.html"><img src="../../img/cities-logo.png" alt="cities" width="150px"></a>
+            <a href="7wondersLeaders.html"><img src="../../img/logo-leaders.png" alt="leaders" width="150px"></a>
+        </div>
+        <a href="../everdell.html"><img src="../../img/EverdellLogo.png" alt="kep" width="200px"></a>
+        <a href="../terraformingMars.html"><img src="../../img/mars_logo.png" alt="kep" width="200px"></a>
+    </div>
+</nav>
+<main>
+    <div id="maincontent">
+        <embed id="content" src="../../rulebooks/7%20Wonders.pdf" width="100%" height="1000px">
+    </div>
+</main>
 </body>
 </html>
