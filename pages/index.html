@@ -3,39 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>BoardGame</title>
-    <script src="../jquery-3.6.1.js"></script>
-    <script src="../main.js"></script>
-    <link rel="stylesheet" href="../style.css">
+    <script src="../scripts/jquery-3.6.1.js"></script>
+    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <nav>
         <div class="dimmer"></div>
         <div class="nav">
             <div id="showbtn">&#9776;</div>
-            <div>Welcome to my BoardGame Page</div>
+            <div id="title">Welcome to my BoardGame Page</div>
         </div>
         <div class="sidenav">
+            <p>Games:</p>
             <a href="javascript:void(0)" id="closebtn" >&times;</a>
-            <a href="javascript:void(0)" class="dropbtn"><img src="../img/pngwing.com.png" alt="kep" width="200px">&#8631</a>
+            <a href="javascript:void(0)" class="dropbtn"><img src="../assets/pngwing.com.png" alt="kep" width="200px">&#8631</a>
             <div class="dropdown-content">
                 <a href="7wonders/7wondersMain.html">Main</a>
                 <a href="javascript:void(0)" class="dropbtn2">Duel &#8631</a>
                 <div class="dropdown-content2">
-                    <a href="7wonders/duel/duelMain.html"><img src="../img/logo-7-wonders-duel.png" alt="duel" width="140px"></a>
-                    <a href="7wonders/duel/duelPantheon.html"><img src="../img/7-wonders-pantheon-logo.png" alt="pantheon" width="140px"></a>
-                    <a href="7wonders/duel/duelAgora.html"><img src="../img/logo-agora.png" alt="agora" width="140px"></a>
+                    <a href="7wonders/duel/duelMain.html"><img src="../assets/logo-7-wonders-duel.png" alt="duel" width="100px"></a>
+                    <a href="7wonders/duel/duelPantheon.html"><img src="../assets/7-wonders-pantheon-logo.png" alt="pantheon" width="100px"></a>
+                    <a href="7wonders/duel/duelAgora.html"><img src="../assets/logo-agora.png" alt="agora" width="100px"></a>
                 </div>
-                <a href="7wonders/7wondersArmada.html"><img src="../img/logo-armada.png" alt="armada" width="150px"></a>
-                <a href="7wonders/7wondersCities.html"><img src="../img/cities-logo.png" alt="cities" width="150px"></a>
-                <a href="7wonders/7wondersLeaders.html"><img src="../img/logo-leaders.png" alt="leaders" width="150px"></a>
+                <a href="7wonders/7wondersArmada.html"><img src="../assets/logo-armada.png" alt="armada" width="100px"></a>
+                <a href="7wonders/7wondersCities.html"><img src="../assets/cities-logo.png" alt="cities" width="100px"></a>
+                <a href="7wonders/7wondersLeaders.html"><img src="../assets/logo-leaders.png" alt="leaders" width="100px"></a>
             </div>
-            <a href="everdell.html"><img src="../img/EverdellLogo.png" alt="kep" width="200px"></a>
-            <a href="terraformingMars.html"><img src="../img/mars_logo.png" alt="kep" width="200px"></a>
+            <a href="everdell.html"><img src="../assets/EverdellLogo.png" alt="kep" width="200px"></a>
+            <a href="terraformingMars.html"><img src="../assets/mars_logo.png" alt="kep" width="200px"></a>
         </div>
     </nav>
     <main>
         <div id="maincontent">
-            MAIN CONTENT
+            <h1>Üdvözöllek az oldalamon</h1>
+            <p>Itt sok különböző játéknak találhatod, majd meg a teljes játékszabályát, valamint a gyors jelmagyarázatát</p>
+            <p>További funkciók a jövőben:</p>
+            <ul>
+                <li>Játékos regisztráció</li>
+                <li>Játék menetek eredményeinek felvitele és mentése</li>
+                <li>Játékos statisztika: nyerések száma, átlag helyezés, nyerések aránya, stb...</li>
+            </ul>
         </div>
     </main>
 </body>

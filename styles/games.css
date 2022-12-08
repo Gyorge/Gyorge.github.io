@@ -1,0 +1,21 @@
+.panels {
+    font-size: 35px;
+}
+
+.panels div{
+    margin: auto;
+}
+
+.panels div:hover {
+    box-shadow: 0 5px #818181;
+}
+
+#logo {
+    padding-top: 10px;
+    margin-left: 220%;
+}
+
+#gamecontent{
+    position: absolute;
+    width: 100%;
+}
