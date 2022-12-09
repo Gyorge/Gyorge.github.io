@@ -26,7 +26,18 @@ body {
     border: solid 5px #111;
     background-color: #1c1c1c;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 60px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav .option{
+    padding: 10px 14px 14px 110px;
+    border: solid 5px #111;
+    background-color: #1c1c1c;
+    text-decoration: none;
+    font-size: 60px;
     color: #818181;
     display: block;
     transition: 0.5s;
@@ -45,7 +56,7 @@ body {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 72px;
     margin-left: 50px;
     background-color: #111;
 }
@@ -53,7 +64,7 @@ body {
 .sidenav p {
     z-index: 1;
     color: #f1f1f1;
-    font-size: 4em;
+    font-size: 6em;
     padding: 0 0 10px 60px;
     margin: 0 0 40px 0;
 }
@@ -79,16 +90,17 @@ body {
 .dropdown-content a {
     padding: 10px 14px 1px 80px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 60px;
     color: #818181;
     display: block;
     align-content: center;
 }
 
+
 .dropdown-content2 a {
     padding: 10px 14px 1px 80px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 60px;
     color: #818181;
     display: block;
 }
@@ -96,7 +108,7 @@ body {
 .nav{
     background: #111111;
     color: #f1f1f1;
-    font-size: 3em;
+    font-size: 5em;
     transition: 0.5s;
     float: left;
     width: 100%;
@@ -104,7 +116,7 @@ body {
 }
 
 .nav div {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     float: left;
 }
 
@@ -122,7 +134,7 @@ main {
     background-color: cadetblue;
     border: #111111 8px solid;
     margin: auto;
-    transform: translate(0, 8%);
+    transform: translate(0, 10%);
     width: 90%;
     text-align: center;
     height: 1550px;
@@ -166,6 +178,12 @@ li {
     z-index: 50;
 }
 
-#title {
-    margin-left: 40px;
+
+.option a{
+    display: inline;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #111;
+    color: #f1f1f1;
+    align-content: center;
 }

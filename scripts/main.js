@@ -5,7 +5,7 @@ let list2Open = false
 $(document).ready(function (){
 
     $("#showbtn").click(function (){
-        $(".sidenav")[0].style.width = "400px"
+        $(".sidenav")[0].style.width = "100%"
         $(".dimmer")[0].style.display = "block"
     })
 
@@ -18,7 +18,7 @@ $(document).ready(function (){
 
     $(".dropbtn").click(function (){
         if (!listOpen){
-            $(".dropdown-content")[0].style.height = "19.5%"
+            $(".dropdown-content")[0].style.height = "45%"
             listOpen = true
         }else{
             $(".dropdown-content")[0].style.height = "0"
@@ -30,11 +30,11 @@ $(document).ready(function (){
 
     $(".dropbtn2").click(function (){
         if (!list2Open){
-            $(".dropdown-content")[0].style.height = "21.5%"
+            $(".dropdown-content")[0].style.height = "50%"
             $(".dropdown-content2")[0].style.height = "100%"
             list2Open = true
         }else{
-            $(".dropdown-content")[0].style.height = "20%"
+            $(".dropdown-content")[0].style.height = "45%"
             $(".dropdown-content2")[0].style.height = "0%"
             list2Open = false
         }
