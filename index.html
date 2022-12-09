@@ -16,56 +16,74 @@
         <div class="sidenav">
             <p>Szabálykönyvek:</p>
             <a href="javascript:void(0)" id="closebtn" >&times;</a>
-            <a href="javascript:void(0)" class="dropbtn"><img src="assets/pngwing.com.png" alt="kep" width="500px">&#8631</a>
+            <div class="option"><a href="javascript:void(0)" class="dropbtn"><img src="assets/pngwing.com.png" alt="kep" width="300px"></a></div>
             <div class="dropdown-content">
                 <div class="option">
-                    <span >Main</span>
-                    <a href="rulebooks/7wonders_base.pdf">Full</a>
-                    <a href="rulebooks/7wonders_base_short.pdf">Short</a>
+                    <a href="javascript:void(0)" id="options_wonders_base"><span style="font-size: 60px">Base</span></a>
+                    <div class="choose" id="wonders_base_container">
+                        <a href="rulebooks/7wonders_base.pdf">Full</a>
+                        <a href="rulebooks/7wonders_base_short.pdf">Short</a>
+                    </div>
                 </div>
-                <a href="javascript:void(0)" class="dropbtn2">Duel &#8631</a>
+                <div class="option"><a href="javascript:void(0)" class="dropbtn2 option" style="background-color: #111111; color: #f1f1f1"><span>Duel</span></a></div>
                 <div class="dropdown-content2">
                     <div class="option">
-                        <img src="assets/logo-7-wonders-duel.png" alt="duel" width="300px">
-                        <a href="rulebooks/7wonders_duel_base.pdf">Full</a>
-                        <a href="rulebooks/7wonders_duel_base_short.pdf">Short</a>
+                        <a href="javascript:void(0)" id="options_duel_base"><img src="assets/logo-7-wonders-duel.png" alt="duel" width="200px"></a>
+                        <div class="choose" id="duel_base_container">
+                            <a href="rulebooks/7wonders_duel_base.pdf">Full</a>
+                            <a href="rulebooks/7wonders_duel_base_short.pdf">Short</a>
+                        </div>
                     </div>
                     <div class="option">
-                        <img src="assets/7-wonders-pantheon-logo.png" alt="pantheon" width="300px">
-                        <a href="rulebooks/7wonders_duel_pantheon.pdf">Full</a>
-                        <a href="rulebooks/7wonders_duel_pantheon_short.pdf">Short</a>
+                        <a href="javascript:void(0)" id="options_duel_pantheon"><img src="assets/7-wonders-pantheon-logo.png" alt="pantheon" width="200px"></a>
+                        <div class="choose" id="duel_pantheon_container">
+                            <a href="rulebooks/7wonders_duel_pantheon.pdf">Full</a>
+                            <a href="rulebooks/7wonders_duel_pantheon_short.pdf">Short</a>
+                        </div>
                     </div>
                     <div class="option">
-                        <img src="assets/logo-agora.png" alt="agora" width="300px">
-                        <a href="rulebooks/7wonders_duel_agora.pdf">Full</a>
-                        <a href="rulebooks/7wonders_duel_agora_short.pdf">Short</a>
+                        <a href="javascript:void(0)" id="options_duel_agora"><img src="assets/logo-agora.png" alt="agora" width="200px"></a>
+                        <div class="choose" id="duel_agora_container">
+                            <a href="rulebooks/7wonders_duel_agora.pdf">Full</a>
+                            <a href="rulebooks/7wonders_duel_agora_short.pdf">Short</a>
+                        </div>
                     </div>
                 </div>
                 <div class="option">
-                    <img src="assets/logo-armada.png" alt="armada" width="300px">
-                    <a href="rulebooks/7wonders_armada.pdf">Full</a>
-                    <a href="rulebooks/7wonders_armada_short.pdf">Short</a>
+                    <a href="javascript:void(0)" id="options_wonders_armada"><img src="assets/logo-armada.png" alt="armada" width="200px"></a>
+                    <div class="choose" id="wonders_armada_container">
+                        <a href="rulebooks/7wonders_armada.pdf">Full</a>
+                        <a href="rulebooks/7wonders_armada_short.pdf">Short</a>
+                    </div>
                 </div>
                 <div class="option">
-                    <img src="assets/cities-logo.png" alt="cities" width="300px">
-                    <a href="rulebooks/7wonders_cities.pdf">Full</a>
-                    <a href="rulebooks/7wonders_cities_short.pdf">Short</a>
+                    <a href="javascript:void(0)" id="options_wonders_cities"><img src="assets/cities-logo.png" alt="cities" width="200px"></a>
+                    <div class="choose" id="wonders_cities_container">
+                        <a href="rulebooks/7wonders_cities.pdf">Full</a>
+                        <a href="rulebooks/7wonders_cities_short.pdf">Short</a>
+                    </div>
                 </div>
                 <div class="option">
-                    <img src="assets/logo-leaders.png" alt="leaders" width="300px">
-                    <a href="rulebooks/7wonders_leaders.pdf">Full</a>
-                    <a href="rulebooks/7wonders_leaders_short.pdf">Short</a>
+                    <a href="javascript:void(0)" id="options_wonders_leaders"><img src="assets/logo-leaders.png" alt="leaders" width="200px"></a>
+                    <div class="choose" id="wonders_leaders_container">
+                        <a href="rulebooks/7wonders_leaders.pdf">Full</a>
+                        <a href="rulebooks/7wonders_leaders_short.pdf">Short</a>
+                    </div>
                 </div>
             </div>
             <div class="option">
-                <img src="assets/EverdellLogo.png" alt="kep" height="160px">
-                <a href="pages/everdell.html">Full</a>
-                <a href="pages/everdell.html">Short</a>
+                <a href="javascript:void(0)" id="options_everdell"><img src="assets/EverdellLogo.png" alt="kep" height="120px"></a>
+                <div class="choose" id="everdell_container">
+                    <a href="pages/everdell.html">Full</a>
+                    <a href="pages/everdell.html">Short</a>
+                </div>
             </div>
             <div class="option">
-                <img src="assets/mars_logo.png" alt="kep" height="300px">
-                <a href="pages/terraformingMars.html">Full</a>
-                <a href="pages/terraformingMars.html">Short</a>
+                <a href="javascript:void(0)" id="options_terraformingmars"><img src="assets/mars_logo.png" alt="kep" height="200px"></a>
+                <div class="choose" id="terraformingmars_container">
+                    <a href="pages/terraformingMars.html">Full</a>
+                    <a href="pages/terraformingMars.html">Short</a>
+                </div>
             </div>
         </div>
     </nav>

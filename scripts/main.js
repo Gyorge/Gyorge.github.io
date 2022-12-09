@@ -5,7 +5,7 @@ let list2Open = false
 $(document).ready(function (){
 
     $("#showbtn").click(function (){
-        $(".sidenav")[0].style.width = "100%"
+        $(".sidenav")[0].style.width = "70%"
         $(".dimmer")[0].style.display = "block"
     })
 
@@ -18,7 +18,7 @@ $(document).ready(function (){
 
     $(".dropbtn").click(function (){
         if (!listOpen){
-            $(".dropdown-content")[0].style.height = "45%"
+            $(".dropdown-content")[0].style.height = "55%"
             listOpen = true
         }else{
             $(".dropdown-content")[0].style.height = "0"
@@ -30,25 +30,97 @@ $(document).ready(function (){
 
     $(".dropbtn2").click(function (){
         if (!list2Open){
-            $(".dropdown-content")[0].style.height = "50%"
+            $(".dropdown-content")[0].style.height = "58%"
             $(".dropdown-content2")[0].style.height = "100%"
             list2Open = true
         }else{
-            $(".dropdown-content")[0].style.height = "45%"
+            $(".dropdown-content")[0].style.height = "55%"
             $(".dropdown-content2")[0].style.height = "0%"
             list2Open = false
         }
     })
 
-    $(".wholeContent").click(function (){
-        let content = $("#content")
-        let pdf = content.attr("name")
-        content.attr("src", "../../rulebooks/" + pdf + ".pdf")
+    $("#options_wonders_base").click(function (){
+        let element = $("#wonders_base_container")
+        console.log(element)
+        if (element.style.height === "0"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
     })
 
-    $(".reference").click(function (){
-        let content = $("#content")
-        let pdf = content.attr("name")
-        content.attr("src", "../../rulebooks/" + pdf + "_short.pdf")
+    $("#options_wonders_armada").click(function (){
+        let element = $("#wonders_armada_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
     })
+
+    $("#options_wonders_cities").click(function (){
+        let element = $("#wonders_cities_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+    $("#options_wonders_leaders").click(function (){
+        let element = $("#wonders_leaders_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+    $("#options_duel_agora").click(function (){
+        let element = $("#duel_agora_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+    $("#options_duel_base").click(function (){
+        let element = $("#duel_base_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+    $("#options_duel_pantheon").click(function (){
+        let element = $("#duel_pantheon_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+    $("#options_everdell").click(function (){
+        let element = $("#everdell_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+    $("#options_terraformingmars").click(function (){
+        let element = $("#terraformingmars_container")
+        if (element.style.height === "0%"){
+            element.style.height = "100%"
+        }else{
+            element.style.height = "0"
+        }
+    })
+
+
 })
