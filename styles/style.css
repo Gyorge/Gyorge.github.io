@@ -58,6 +58,11 @@ li {
     transition: 0.5s;
 }
 
+.sidenav a:hover {
+    background-color: #818181;
+    color: #111111;
+}
+
 .sidenav .option{
     border: solid 5px #111;
     background-color: #1c1c1c;
@@ -66,10 +71,6 @@ li {
     color: #818181;
     display: block;
     transition: 0.5s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
 }
 
 .sidenav #closebtn {
@@ -188,7 +189,13 @@ main {
 }
 
 .choose {
-    height: 0;
+    height: 100%;
+    width: 60%;
     overflow: hidden;
     transition: 0.5s;
+}
+
+.choice{
+    display: inline-block;
+    vertical-align: middle;
 }
